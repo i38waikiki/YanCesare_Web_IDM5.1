@@ -99,13 +99,44 @@ nav.hidden {
     padding: 100px 20px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     nav {
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+        height: auto;
     }
+
+    .nav-title {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
     .nav-links {
         flex-direction: column;
-        gap: 15px;
+        align-items: flex-start;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .nav-links li {
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+        background: transparent;
+        padding-left: 15px;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
     }
 }
