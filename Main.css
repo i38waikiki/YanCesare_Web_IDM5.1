@@ -177,19 +177,22 @@ animation: fade-up 2s;
     transform: translateY(-50%);
     animation: fade-up 7s;
     overflow: hidden;
+    display: inline-block;
   }
 
-  .discover a, .discover a:link, .discover a:visited {
-    color: inherit; /* Use the button's text color */
+ 
+
+  .discover , .discover :link, .discover :visited {
     text-decoration: none; /* Remove underline */
 }
 
-.discover a:hover, .discover a:active {
+.discover :hover, .discover :active {
   
     text-decoration: none; /* Ensure no underline on hover or click */
 }
 
   .discover:hover{
+    display: inline-block;
     background-color: #f1f1f1;
     border:solid #f1f1f1;
     text-align: center;
