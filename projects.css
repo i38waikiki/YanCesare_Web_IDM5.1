@@ -1,0 +1,137 @@
+.custom-page3{
+   background-color: #16242e; 
+}
+
+
+.custom-page3 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Section Titles */
+.section-title, .carousel-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.section-title {
+
+    margin-top: 20%;
+}
+
+/* Thumbnails Section */
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+    align-items: center;
+    margin-bottom: 250px;
+    margin-top: 12%;
+}
+
+.thumbnail {
+    display: block;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    transform: scale(2);
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    z-index: 1;
+}
+
+.thumbnail img {
+    width: 100%;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(2.2);
+    z-index: 10;
+}
+
+.thumbnail:hover img {
+    transform: scale(1.1);
+}
+
+/*carousel section*/
+
+/* General carousel styling */
+.carousel-container1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #16242e;
+    padding: 20px 0;
+}
+
+.carousel-title1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Carousel track styling */
+.carousel1 {
+    display: flex;
+    gap: 10px;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+    padding: 0 20px;
+}
+
+/* Carousel item styling */
+.carousel-item1{
+    flex: 0 0 25%; /* Four items per view */
+    max-width: 25%;
+    height: 500px; /* Uniform height */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #000;
+}
+
+/* Images */
+.carousel-item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+/* Videos */
+.carousel-item1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+/* Navigation buttons */
+.carousel-prev1, .carousel-next1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+.carousel-prev1 {
+    left: 10px;
+}
+
+.carousel-next1 {
+    right: 10px;
+}
+
+.carousel-prev1:hover, .carousel-next:hover {
+    background: rgba(0, 0, 0, 0.8);
+}

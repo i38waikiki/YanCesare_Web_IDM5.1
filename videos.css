@@ -1,0 +1,24 @@
+main {
+    height: 100%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    max-width: 50%; /* Adjust the maximum width as needed */
+    max-height: 40vh; /* Adjust the maximum height as needed */
+    
+}
+
+/* Optional: Set the video size */
+video {
+    width: 100%; /* Or use a fixed width like 500px */
+    height: auto; /
+}
