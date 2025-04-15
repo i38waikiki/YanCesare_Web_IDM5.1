@@ -223,6 +223,7 @@ animation: fade-up 2s;
   }
 
   .demotext{
+    font-family: 'Bebas Neue', sans-serif ;
     font-size: 400%;
     color: #f1f1f1;
     padding-top: 1%;
@@ -257,10 +258,11 @@ animation: fade-up 2s;
     position: relative;
     z-index: 2; 
     color: white; 
-    text-align: center;
+    text-align: justify;
     padding: 20px;
     text-align: left;
     animation: fade-up 5s;
+    font-family: 'Bebas Neue', sans-serif ;
     
   }
 
@@ -294,6 +296,7 @@ animation: fade-up 2s;
     color: white;
     text-align: center;
     padding: 20px;
+    font-family: 'Bebas Neue', sans-serif ;
 }
 
 

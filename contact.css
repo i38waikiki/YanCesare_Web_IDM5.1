@@ -29,10 +29,12 @@ body, html {
 .contact-header h1 {
     font-size: 2.5rem;
     margin: 0;
+    font-family: 'Bebas Neue', sans-serif ;
 }
 
 .contact-header p {
-    font-size: 1rem;
+    font-family: 'Bebas Neue', sans-serif ;
+    font-size: 1.5rem;
     margin-top: 10px;
 }
 
