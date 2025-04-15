@@ -20,5 +20,5 @@ main {
 /* Optional: Set the video size */
 video {
     width: 100%; /* Or use a fixed width like 500px */
-    height: auto; /
+    height: auto; 
 }
